@@ -3,12 +3,12 @@ function takeANumber(katz, name){
   
   return `Welcome, ${name}. You are number ${katz.length} in line.`;
 }
-
+ var ticketmaster = 0;
 
 function takeANumber(katz){
-  var ticketmaster = 0;
-  ticketmaster++
-  return "Welcome. You're ticket number# ${katz.lenth}"
+  ticketmaster++;
+  katz.push(ticketmaster);
+  return "Welcome. You're ticket number# ${ticketmaster}";
 }
 
 // takeANumber(katz) => "Welcome. You're ticket number #1" [1]
