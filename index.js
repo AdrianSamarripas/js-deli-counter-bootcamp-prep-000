@@ -6,7 +6,9 @@ function takeANumber(katz, name){
 
 
 function takeANumber(katz){
-  
+  var ticketmaster = 0;
+  ticketmaster++
+  return "Welcome. You're ticket number# ${katz.lenth}"
 }
 
 // takeANumber(katz) => "Welcome. You're ticket number #1" [1]
